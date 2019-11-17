@@ -1,0 +1,277 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.navbar {
+    background-color: #171717 ;
+}
+
+.nav-item {
+    margin-right: 30px;
+    font-weight: 200;
+}
+
+.nav-item.active a {
+    color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar a:hover {
+    /* color: #ffffff; */
+    font-weight: bold;
+}
+
+.navbar a span {
+    color: #F9B234;
+}
+
+/* COROUSEL */
+.carousel { 
+    height: 450px;
+    background-color: #171717 ;
+    color: white;
+}
+
+.carousel-item  h1 {
+    font-weight: bold;
+    font-family: 'Lora';
+    font-size: 48px;
+    letter-spacing: 5px;
+}
+
+/* FEATURES */
+/* .brands {
+    height: 750px;
+    background-color: #B7B7B7;
+} */
+.txt-features h2, .designer-item h2, .similiar-item h2 {
+    color: #1B2690;
+    font-family: 'Lora' !important;
+    font-weight: bold;
+    /* font-size: 28px; */
+}
+
+.txt-features p, .designer-item p, .similiar-item p {
+    color: #B7B7B7;
+}
+
+.features h5, .figure h5 {
+    font-weight: 600;
+    color: #171717;
+}
+
+.features p, .figure p {
+    color: #B7B7B7;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 8px;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+/* FOOTER */
+footer {
+    color: #B7B7B7;
+    /* margin-top: 250px; */
+}
+
+footer .all a {
+    color: #171717;
+    font-weight: 600
+}
+
+footer .all2 a {
+    color: #B7B7B7;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+footer .all2 a:hover {
+    color: #1B2690;
+    font-weight: 600;
+}
+
+footer .all a:hover {
+    color: #1B2690;
+    font-weight: bold;
+}
+
+/* single page */
+
+/* breadcrumbs */
+.breadcrumb {
+    margin-top: 80px;
+}
+
+.cart-brd {
+    margin-top: 20px;
+}
+
+/* single page */
+
+.pruduct-thumbnail-container {
+    background-color: white;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.2);
+    width: 360px;
+    padding: 8px;
+
+    /* position: absolute; */
+    /* margin-top: -60px; */
+    /* margin-left: 40px; */
+    transform: translateY(-50px);
+    margin: auto;
+}
+
+.txt-desc .price, .txt-desc h5, .desc span {
+    color : #B7B7B7; 
+}
+
+.desc {
+    margin-left: 10px;
+}
+
+.btn-minus {
+    background-color: #EAEAEF;
+    color: white;
+}
+
+.btn-product {
+    margin: 50px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EAEAEF;
+}
+
+.btn-product .btn {
+    display: block;
+    margin: 10px 0;
+}
+
+/* PRUDUCT SINGLE */    
+.prd-single {
+    background-color : #F8F8F8; 
+    height: 350px;
+}
+
+
+.prd-single .tab-content {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    box-shadow: 0 4px 15px rgb(0, 0, 0, 0.1);
+    
+}
+
+.prd-single .tab-content p {
+    font-weight: 200;
+    color: #868686;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+}
+/* 
+.prd-single .tab-pane {
+    display: inline-block;
+} */
+
+.prd-single .tab-pane h5 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+.prd-single .tab-pane {
+    height: 330px;
+    overflow: scroll;
+}
+
+.prd-single .tab-pane p {
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+
+/* SIMILIAR PRODUCT */
+.similiar-prd {
+    margin-top: 150px;
+}
+
+
+/* CART */
+form .form-group label {
+    font-weight: 600;
+}
+
+.card-chekout {
+    background-color: #F6F7FB;
+    border: 1px solid #EAEAEA;
+}
+
+/* CATEGORY PAGES */
+.slide-show {
+    /* height: 360px;    */
+}
+.slide-show .txt-slide {
+    height: 500px;
+    background-color: #F9B234;
+}
+
+.slide-show .txt-slide img {
+    margin-top: 100px;
+    margin-left: 240px;
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    box-shadow: 1px 3px 14px rgb(0, 0, 0, 0.7);
+}
+
+.slide-show .img-slide {
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+
+.slide-show .img-slide h1 {
+    font-weight: bold;
+}
+
+.slide-show .btn-view {
+    color: #171717;
+    border: 2px solid #F9B234;
+    border-radius: 10px;
+}
+
+.slide-show a:hover {
+    background-color: #F9B234;
+    color: white;
+}
+
+
+
+.ctr .card h3 {
+    font-weight: bold;
+}
+
+.ctr .card a {
+    position: absolute;
+    margin-left: -15px;
+}
